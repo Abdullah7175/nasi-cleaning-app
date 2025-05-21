@@ -463,7 +463,7 @@ class _CustomerCheckoutScreenState extends ConsumerState<CustomerCheckoutScreen>
                   showOrderConfirmation = false;
                 });
                 ref.read(cartProvider.notifier).clearCart();
-                context.go('/orders');
+                context.go('/customer-orders');
               },
               child: const Text("View Orders"),
             ),

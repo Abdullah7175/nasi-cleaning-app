@@ -5,7 +5,7 @@ import 'package:nasi_cleaning/screens/home_screen.dart';
 import 'package:nasi_cleaning/screens/services_screen.dart';
 import 'package:nasi_cleaning/screens/splash_screen.dart';
 import 'package:nasi_cleaning/screens/login_screen.dart';
-import 'package:nasi_cleaning/screens/orders_screen.dart';
+// import 'package:nasi_cleaning/screens/orders_screen.dart';
 import 'package:nasi_cleaning/screens/profile_screen.dart';
 import 'package:nasi_cleaning/screens/not_found.dart';
 import 'package:nasi_cleaning/screens/customer_orders_screen.dart';
@@ -169,15 +169,15 @@ GoRouter _router(WidgetRef ref) {
           ),
 
           // Vendor orders screen
-          GoRoute(
-            path: '/orders',
-            pageBuilder: (BuildContext context, GoRouterState state) {
-              return MaterialPage<void>(
-                key: state.pageKey,
-                child: const OrdersScreen(),
-              );
-            },
-          ),
+          // GoRoute(
+          //   path: '/orders',
+          //   pageBuilder: (BuildContext context, GoRouterState state) {
+          //     return MaterialPage<void>(
+          //       key: state.pageKey,
+          //       child: const OrdersScreen(),
+          //     );
+          //   },
+          // ),
 
           // Payment screen
 
